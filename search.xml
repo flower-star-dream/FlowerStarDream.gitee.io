@@ -1,59 +1,445 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>md全LaTex数学公式代码教程</title>
-      <link href="/flowerstardream.gitee.io/2024/04/26/md%E5%85%A8LaTex%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E4%BB%A3%E7%A0%81%E6%95%99%E7%A8%8B/"/>
-      <url>/flowerstardream.gitee.io/2024/04/26/md%E5%85%A8LaTex%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E4%BB%A3%E7%A0%81%E6%95%99%E7%A8%8B/</url>
-      
-        <content type="html"><![CDATA[<h1 id="md全LaTex数学公式"><a href="#md全LaTex数学公式" class="headerlink" title="md全LaTex数学公式"></a>md全LaTex数学公式</h1><h3 id="特殊符号"><a href="#特殊符号" class="headerlink" title="特殊符号"></a>特殊符号</h3><div class="table-container"><table><thead><tr><th>特殊字符</th><th>说 明</th><th>实例</th><th>完整字符串</th></tr></thead><tbody><tr><td>$</td><td>数学公式前后加$是行内公式</td><td>数学公式:<strong>a</strong>=<strong>x</strong>+<strong>y</strong></td><td>\$ a=x+y \$</td></tr><tr><td>$$</td><td>数学公式加$$就是读占一行的公式</td><td>独占一行:<br /><strong>a</strong>=<strong>x</strong>+<strong>y</strong></td><td>\$\$ a=x+y \$\$</td></tr><tr><td>\</td><td>转义字符,特殊字符要显示原意,就在前面加\</td><td>$</td><td>\$\\$\$</td></tr></tbody></table></div><h3 id="常用符号"><a href="#常用符号" class="headerlink" title="常用符号"></a>常用符号</h3><div class="table-container"><table><thead><tr><th>运算符</th><th>markdown</th></tr></thead><tbody><tr><td>±</td><td>\pm</td></tr><tr><td>×</td><td>\times</td></tr><tr><td>÷</td><td>\div</td></tr><tr><td>∑</td><td>\sum</td></tr><tr><td>∏</td><td>\prod</td></tr><tr><td>≠</td><td>\neq</td></tr><tr><td>≤</td><td>\leq</td></tr><tr><td>≥</td><td>\geq</td></tr></tbody></table></div><h3 id="希腊字符"><a href="#希腊字符" class="headerlink" title="希腊字符"></a>希腊字符</h3><div class="table-container"><table><thead><tr><th>大写</th><th>markdown</th><th>小写</th><th>markdown</th></tr></thead><tbody><tr><td>A</td><td>A</td><td>α</td><td>\alpha</td></tr><tr><td>B</td><td>B</td><td>β</td><td>\beta</td></tr><tr><td>Γ</td><td>\Gamma</td><td>γ</td><td>\gamma</td></tr><tr><td>Δ</td><td>\Delta</td><td>δ</td><td>\delta</td></tr><tr><td>E</td><td>E</td><td>ϵ</td><td>\epsilon</td></tr><tr><td></td><td></td><td>ε</td><td>\varepsilon</td></tr><tr><td>Z</td><td>Z</td><td>ζ</td><td>\zeta</td></tr><tr><td>H</td><td>H</td><td>η</td><td>\eta</td></tr><tr><td>Θ</td><td>\Theta</td><td>θ</td><td>\theta</td></tr><tr><td>I</td><td>I</td><td>ι</td><td>\iota</td></tr><tr><td>K</td><td>K</td><td>κ</td><td>\kappa</td></tr><tr><td>Λ</td><td>\Lambda</td><td>λ</td><td>\lambda</td></tr><tr><td>M</td><td>M</td><td>μ</td><td>\mu</td></tr><tr><td>N</td><td>N</td><td>ν</td><td>\nu</td></tr><tr><td>Ξ</td><td>\Xi</td><td>ξ</td><td>\xi</td></tr><tr><td>O</td><td>O</td><td>ο</td><td>\omicron</td></tr><tr><td>Π</td><td>\Pi</td><td>π</td><td>\pi</td></tr><tr><td>P</td><td>P</td><td>ρ</td><td>\rho</td></tr><tr><td>Σ</td><td>\Sigma</td><td>σ</td><td>\sigma</td></tr><tr><td>T</td><td>T</td><td>τ</td><td>\tau</td></tr><tr><td>Υ</td><td>\Upsilon</td><td>υ</td><td>\upsilon</td></tr><tr><td>Φ</td><td>\Phi</td><td>ϕ</td><td>\phi</td></tr><tr><td></td><td></td><td>φ</td><td>\varphi</td></tr><tr><td>X</td><td>X</td><td>χ</td><td>\chi</td></tr><tr><td>Ψ</td><td>\Psi</td><td>ψ</td><td>\psi</td></tr><tr><td>Ω</td><td>\Omega</td><td>ω</td><td>\omega</td></tr></tbody></table></div><h3 id="分数微分"><a href="#分数微分" class="headerlink" title="分数微分"></a>分数微分</h3><div class="table-container"><table><thead><tr><th>算式</th><th>markdown</th></tr></thead><tbody><tr><td>分数</td><td></td></tr><tr><td>$\frac{b}{a}$</td><td>\frac{b}{a}</td></tr><tr><td>$\frac{dy}{dx}$</td><td>\frac{dy}{dx}</td></tr><tr><td>$dt$</td><td>dt</td></tr><tr><td>$\partial t$</td><td>\partial t</td></tr><tr><td>$\frac{\partial y}{\partial x}$</td><td>\frac{\partial y}{\partial x}</td></tr><tr><td>$\frac{\partial^{2}}{\partial x<em>{1}\partial x</em>{2}}y$</td><td>\frac{\partial^{2}}{\partial x<em>{1}\partial x</em>{2}}y</td></tr><tr><td>$\begin{matrix}x=a<em>{0}+\frac{1}{a</em>{1}+\frac{1}{a<em>{2}+\frac{1}{a</em>{3}+\frac{1}{a_{4}}}}}\end{matrix}$</td><td>\begin{matrix}x=a<em>{0}+\frac{1}{a</em>{1}+\frac{1}{a<em>{2}+\frac{1}{a</em>{3}+\frac{1}{a_{4}}}}}\end{matrix}</td></tr><tr><td>导数</td><td></td></tr><tr><td>$\dot{a}$</td><td>\dot{a}</td></tr><tr><td>$\ddot{a}$</td><td>\ddot{a}</td></tr><tr><td>${f}^{‘}$</td><td>{f}^{‘}</td></tr><tr><td>${f}^{‘’}$</td><td>{f}^{‘’}</td></tr><tr><td>${f}^{(n)}$</td><td>{f}^{(n)}</td></tr></tbody></table></div><h3 id="根式角标"><a href="#根式角标" class="headerlink" title="根式角标"></a>根式角标</h3><div class="table-container"><table><thead><tr><th>算式</th><th>markdown</th></tr></thead><tbody><tr><td>根式</td><td></td></tr><tr><td>$\sqrt{x}$</td><td>\sqrt{x}</td></tr><tr><td>$\sqrt[n]{x}$</td><td>\sqrt[n]{x}</td></tr><tr><td>上下标</td><td></td></tr><tr><td>${x}^{a}$</td><td>{x}^{a}</td></tr><tr><td>${x}_{b}$</td><td>{x}_{b}</td></tr><tr><td>${x}_{b}^{a}$</td><td>{x}_{b}^{a}</td></tr><tr><td>重音符及其他</td><td></td></tr><tr><td>$\hat{a}$</td><td>\hat{a}</td></tr><tr><td>$\check{a}$</td><td>\check{a}</td></tr><tr><td>$\grave{a}$</td><td>\grave{a}</td></tr><tr><td>$\acute{a}$</td><td>\acute{a}</td></tr><tr><td>$\tilde{a}$</td><td>\tilde{a}</td></tr><tr><td>$\breve{a}$</td><td>\breve{a}</td></tr><tr><td>$\bar{a}$</td><td>\bar{a}</td></tr><tr><td>$\overrightarrow{a}$</td><td>\overrightarrow{a}</td></tr><tr><td>${a}^{\circ }$</td><td>{a}^{\circ }</td></tr><tr><td>$\overleftarrow{abc}$</td><td>\overleftarrow{abc}</td></tr><tr><td>$\underline{abc}$</td><td>\underline{abc}</td></tr><tr><td>$\overbrace{abc}$</td><td>\overbrace{abc}</td></tr><tr><td>$\underbrace{abc}$</td><td>\underbrace{abc}</td></tr></tbody></table></div><h1 id="未完待续……"><a href="#未完待续……" class="headerlink" title="未完待续……"></a>未完待续……</h1>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/flowerstardream.gitee.io/2024/04/21/hello-world/</url>
+    <content><![CDATA[<p>欢迎来到我的个人博客!这是我的第一篇文章。查看文档了解更多信息。</p>
+<h2 id="快速启动"><a href="#快速启动" class="headerlink" title="快速启动"></a>快速启动</h2><h3 id="创建一个新帖子"><a href="#创建一个新帖子" class="headerlink" title="创建一个新帖子"></a>创建一个新帖子</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>更多信息: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="运行服务器"><a href="#运行服务器" class="headerlink" title="运行服务器"></a>运行服务器</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>更多信息: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="生成静态页面"><a href="#生成静态页面" class="headerlink" title="生成静态页面"></a>生成静态页面</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>更多信息: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="部署到远程站点"><a href="#部署到远程站点" class="headerlink" title="部署到远程站点"></a>部署到远程站点</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>更多信息: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
       <categories>
-          
-          <category> 教程 </category>
-          
+        <category>demo</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> LaTex </tag>
-            
-            <tag> 数学 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/flowerstardream.gitee.io/2024/04/21/hello-world/"/>
-      <url>/flowerstardream.gitee.io/2024/04/21/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>欢迎来到我的个人博客!这是我的第一篇文章。查看文档了解更多信息。</p><h2 id="快速启动"><a href="#快速启动" class="headerlink" title="快速启动"></a>快速启动</h2><h3 id="创建一个新帖子"><a href="#创建一个新帖子" class="headerlink" title="创建一个新帖子"></a>创建一个新帖子</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="运行服务器"><a href="#运行服务器" class="headerlink" title="运行服务器"></a>运行服务器</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="生成静态页面"><a href="#生成静态页面" class="headerlink" title="生成静态页面"></a>生成静态页面</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="部署到远程站点"><a href="#部署到远程站点" class="headerlink" title="部署到远程站点"></a>部署到远程站点</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
+      <tags>
+        <tag>Hello World</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>md全LaTex数学公式代码教程</title>
+    <url>/flowerstardream.gitee.io/2024/04/26/md%E5%85%A8LaTex%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E4%BB%A3%E7%A0%81%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h1 id="md全LaTex数学公式"><a href="#md全LaTex数学公式" class="headerlink" title="md全LaTex数学公式"></a>md全LaTex数学公式</h1><h3 id="特殊符号"><a href="#特殊符号" class="headerlink" title="特殊符号"></a>特殊符号</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>特殊字符</th>
+<th>说 明</th>
+<th>实例</th>
+<th>完整字符串</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$</td>
+<td>数学公式前后加$是行内公式</td>
+<td>数学公式:<strong>a</strong>=<strong>x</strong>+<strong>y</strong></td>
+<td>\$ a=x+y \$</td>
+</tr>
+<tr>
+<td>$$</td>
+<td>数学公式加$$就是读占一行的公式</td>
+<td>独占一行:<br /><strong>a</strong>=<strong>x</strong>+<strong>y</strong></td>
+<td>\$\$ a=x+y \$\$</td>
+</tr>
+<tr>
+<td>\</td>
+<td>转义字符,特殊字符要显示原意,就在前面加\</td>
+<td>$</td>
+<td>\$\\$\$</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="常用符号"><a href="#常用符号" class="headerlink" title="常用符号"></a>常用符号</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>运算符</th>
+<th>markdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>±</td>
+<td>\pm</td>
+</tr>
+<tr>
+<td>×</td>
+<td>\times</td>
+</tr>
+<tr>
+<td>÷</td>
+<td>\div</td>
+</tr>
+<tr>
+<td>∑</td>
+<td>\sum</td>
+</tr>
+<tr>
+<td>∏</td>
+<td>\prod</td>
+</tr>
+<tr>
+<td>≠</td>
+<td>\neq</td>
+</tr>
+<tr>
+<td>≤</td>
+<td>\leq</td>
+</tr>
+<tr>
+<td>≥</td>
+<td>\geq</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="希腊字符"><a href="#希腊字符" class="headerlink" title="希腊字符"></a>希腊字符</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>大写</th>
+<th>markdown</th>
+<th>小写</th>
+<th>markdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>A</td>
+<td>α</td>
+<td>\alpha</td>
+</tr>
+<tr>
+<td>B</td>
+<td>B</td>
+<td>β</td>
+<td>\beta</td>
+</tr>
+<tr>
+<td>Γ</td>
+<td>\Gamma</td>
+<td>γ</td>
+<td>\gamma</td>
+</tr>
+<tr>
+<td>Δ</td>
+<td>\Delta</td>
+<td>δ</td>
+<td>\delta</td>
+</tr>
+<tr>
+<td>E</td>
+<td>E</td>
+<td>ϵ</td>
+<td>\epsilon</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>ε</td>
+<td>\varepsilon</td>
+</tr>
+<tr>
+<td>Z</td>
+<td>Z</td>
+<td>ζ</td>
+<td>\zeta</td>
+</tr>
+<tr>
+<td>H</td>
+<td>H</td>
+<td>η</td>
+<td>\eta</td>
+</tr>
+<tr>
+<td>Θ</td>
+<td>\Theta</td>
+<td>θ</td>
+<td>\theta</td>
+</tr>
+<tr>
+<td>I</td>
+<td>I</td>
+<td>ι</td>
+<td>\iota</td>
+</tr>
+<tr>
+<td>K</td>
+<td>K</td>
+<td>κ</td>
+<td>\kappa</td>
+</tr>
+<tr>
+<td>Λ</td>
+<td>\Lambda</td>
+<td>λ</td>
+<td>\lambda</td>
+</tr>
+<tr>
+<td>M</td>
+<td>M</td>
+<td>μ</td>
+<td>\mu</td>
+</tr>
+<tr>
+<td>N</td>
+<td>N</td>
+<td>ν</td>
+<td>\nu</td>
+</tr>
+<tr>
+<td>Ξ</td>
+<td>\Xi</td>
+<td>ξ</td>
+<td>\xi</td>
+</tr>
+<tr>
+<td>O</td>
+<td>O</td>
+<td>ο</td>
+<td>\omicron</td>
+</tr>
+<tr>
+<td>Π</td>
+<td>\Pi</td>
+<td>π</td>
+<td>\pi</td>
+</tr>
+<tr>
+<td>P</td>
+<td>P</td>
+<td>ρ</td>
+<td>\rho</td>
+</tr>
+<tr>
+<td>Σ</td>
+<td>\Sigma</td>
+<td>σ</td>
+<td>\sigma</td>
+</tr>
+<tr>
+<td>T</td>
+<td>T</td>
+<td>τ</td>
+<td>\tau</td>
+</tr>
+<tr>
+<td>Υ</td>
+<td>\Upsilon</td>
+<td>υ</td>
+<td>\upsilon</td>
+</tr>
+<tr>
+<td>Φ</td>
+<td>\Phi</td>
+<td>ϕ</td>
+<td>\phi</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>φ</td>
+<td>\varphi</td>
+</tr>
+<tr>
+<td>X</td>
+<td>X</td>
+<td>χ</td>
+<td>\chi</td>
+</tr>
+<tr>
+<td>Ψ</td>
+<td>\Psi</td>
+<td>ψ</td>
+<td>\psi</td>
+</tr>
+<tr>
+<td>Ω</td>
+<td>\Omega</td>
+<td>ω</td>
+<td>\omega</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="分数微分"><a href="#分数微分" class="headerlink" title="分数微分"></a>分数微分</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>算式</th>
+<th>markdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>分数</td>
+<td></td>
+</tr>
+<tr>
+<td>$\frac{b}{a}$</td>
+<td>\frac{b}{a}</td>
+</tr>
+<tr>
+<td>$\frac{dy}{dx}$</td>
+<td>\frac{dy}{dx}</td>
+</tr>
+<tr>
+<td>$dt$</td>
+<td>dt</td>
+</tr>
+<tr>
+<td>$\partial t$</td>
+<td>\partial t</td>
+</tr>
+<tr>
+<td>$\frac{\partial y}{\partial x}$</td>
+<td>\frac{\partial y}{\partial x}</td>
+</tr>
+<tr>
+<td>$\frac{\partial^{2}}{\partial x<em>{1}\partial x</em>{2}}y$</td>
+<td>\frac{\partial^{2}}{\partial x<em>{1}\partial x</em>{2}}y</td>
+</tr>
+<tr>
+<td>$\begin{matrix}x=a<em>{0}+\frac{1}{a</em>{1}+\frac{1}{a<em>{2}+\frac{1}{a</em>{3}+\frac{1}{a_{4}}}}}\end{matrix}$</td>
+<td>\begin{matrix}x=a<em>{0}+\frac{1}{a</em>{1}+\frac{1}{a<em>{2}+\frac{1}{a</em>{3}+\frac{1}{a_{4}}}}}\end{matrix}</td>
+</tr>
+<tr>
+<td>导数</td>
+<td></td>
+</tr>
+<tr>
+<td>$\dot{a}$</td>
+<td>\dot{a}</td>
+</tr>
+<tr>
+<td>$\ddot{a}$</td>
+<td>\ddot{a}</td>
+</tr>
+<tr>
+<td>${f}^{‘}$</td>
+<td>{f}^{‘}</td>
+</tr>
+<tr>
+<td>${f}^{‘’}$</td>
+<td>{f}^{‘’}</td>
+</tr>
+<tr>
+<td>${f}^{(n)}$</td>
+<td>{f}^{(n)}</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="根式角标"><a href="#根式角标" class="headerlink" title="根式角标"></a>根式角标</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>算式</th>
+<th>markdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>根式</td>
+<td></td>
+</tr>
+<tr>
+<td>$\sqrt{x}$</td>
+<td>\sqrt{x}</td>
+</tr>
+<tr>
+<td>$\sqrt[n]{x}$</td>
+<td>\sqrt[n]{x}</td>
+</tr>
+<tr>
+<td>上下标</td>
+<td></td>
+</tr>
+<tr>
+<td>${x}^{a}$</td>
+<td>{x}^{a}</td>
+</tr>
+<tr>
+<td>${x}_{b}$</td>
+<td>{x}_{b}</td>
+</tr>
+<tr>
+<td>${x}_{b}^{a}$</td>
+<td>{x}_{b}^{a}</td>
+</tr>
+<tr>
+<td>重音符及其他</td>
+<td></td>
+</tr>
+<tr>
+<td>$\hat{a}$</td>
+<td>\hat{a}</td>
+</tr>
+<tr>
+<td>$\check{a}$</td>
+<td>\check{a}</td>
+</tr>
+<tr>
+<td>$\grave{a}$</td>
+<td>\grave{a}</td>
+</tr>
+<tr>
+<td>$\acute{a}$</td>
+<td>\acute{a}</td>
+</tr>
+<tr>
+<td>$\tilde{a}$</td>
+<td>\tilde{a}</td>
+</tr>
+<tr>
+<td>$\breve{a}$</td>
+<td>\breve{a}</td>
+</tr>
+<tr>
+<td>$\bar{a}$</td>
+<td>\bar{a}</td>
+</tr>
+<tr>
+<td>$\overrightarrow{a}$</td>
+<td>\overrightarrow{a}</td>
+</tr>
+<tr>
+<td>${a}^{\circ }$</td>
+<td>{a}^{\circ }</td>
+</tr>
+<tr>
+<td>$\overleftarrow{abc}$</td>
+<td>\overleftarrow{abc}</td>
+</tr>
+<tr>
+<td>$\underline{abc}$</td>
+<td>\underline{abc}</td>
+</tr>
+<tr>
+<td>$\overbrace{abc}$</td>
+<td>\overbrace{abc}</td>
+</tr>
+<tr>
+<td>$\underbrace{abc}$</td>
+<td>\underbrace{abc}</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id="未完待续……"><a href="#未完待续……" class="headerlink" title="未完待续……"></a>未完待续……</h1>]]></content>
       <categories>
-          
-          <category> demo </category>
-          
+        <category>教程</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Hello World </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>LaTex</tag>
+        <tag>数学</tag>
+      </tags>
+  </entry>
 </search>
